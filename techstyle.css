@@ -1,0 +1,212 @@
+/* 전체 폰트 */
+*{
+    font-family: 'Gothic A1', sans-serif;
+}
+/* 메뉴 */
+.menu {
+    height: 60px;
+    text-align: left;
+    border-bottom: 1px solid lightgray;  /*상단 메뉴 밑 라인 */
+    line-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.logo {
+    line-height: 60px;
+    text-align: center;
+    float: left; /* float: left -> 수평으로 나열됨 */
+    width: 60px;
+    height: 32px;
+    margin-top: -1px;
+    margin-right: 330px;  /*이건 왜 330px나 해야 될까*/
+}
+
+.logo_img{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 260px;
+    margin-top: -25px;
+}
+
+
+
+.menu_text{
+    font-size: 15px;
+    line-height: 60px;
+    /* text-align: center; */
+    float: left;
+    height: 32px;
+    margin-left: 25px;
+    margin-top: -5px;
+    font-weight: 600;
+
+}
+
+
+.new_icon{
+    width: 13px;
+    float: left;
+    margin-top: 5px;
+}
+.mylec{    
+    margin-right: 260px;
+
+}
+.menu_login{
+    float: right;
+    font-size: 15px;
+    line-height: 60px;
+    /* text-align: center; */
+    height: 32px;
+    margin-right: 30px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+
+.acc_img1{
+    float: right;
+    width: 30px;
+    border-radius: 50px;
+    margin-top: 8px;
+}
+
+/* 스쿨 안내 */
+.sch{
+    margin-top: 80px;
+    margin-left: 260px;
+}
+.sch_text1{
+    color: #FF8000;
+    font-weight: bold;
+}
+.sch_text2{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.more_sch{
+    float: left;
+    margin-bottom: 20px;
+}
+
+.detail1{
+    float: left;
+    text-align: left;
+    font-weight: 500;
+    color: gray;
+    font-size: 15px;
+    margin-top: 0;
+
+}
+.detail2{
+    float: right;
+    margin-left: 780px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+
+
+/* 스쿨 선택 section */
+.sec {
+    text-align:left;
+    float: left;
+    background-color:white; /* 4번) 원하는 컬러를 지정해주세요. */
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+
+.sec article {
+    float: left;
+    width: 260px;
+    margin-left: 50px;
+}
+
+.sec article:last-child {
+    margin-right: 0;
+}
+.sec article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.d-day{
+    color: blue;
+    padding: 7px;
+    width:fit-content; /*상자 넓이 조절 */
+    font-size: 13px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.acc{
+    font-weight: 500;
+    margin-top: -6px;
+}
+
+.prd{
+    color: gray;
+}
+
+.preal{
+    color: green;
+    padding: 7px;
+    width:fit-content; /*상자 넓이 조절 */
+    font-size: 13px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: green;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+/* 테킷 스쿨 사전알림 */
+
+.alarm{
+    float: left;
+    background-color: #EFF5FB;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.memo{
+    float: left;
+    margin-left: 1000px;
+    margin-top: -190px;
+    margin-bottom: -5px;
+}
+.memo2{
+    height: 200px;
+}
+
+.preal_text{
+    margin-left: 260px;
+    width: 30%;
+}
+.preal_title{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: navy;
+}
+.waitsch{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.more{
+    font-weight: 600;
+    color: gray;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
